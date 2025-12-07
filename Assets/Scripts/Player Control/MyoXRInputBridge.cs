@@ -13,6 +13,9 @@ public class MyoXRInputBridge : MonoBehaviour
     [Header("Interactor da Mão Direita (NÃO o Right Controller!)")]
     public XRDirectInteractor rightDirectInteractor;
 
+    [Header("Interactor da Mão Esquerda (NÃO o Left Controller!)")]
+    public XRDirectInteractor leftDirectInteractor;
+
     [Header("Cooldown entre gestos (segurança)")]
     public float poseCooldown = 0.35f;
 
@@ -427,6 +430,7 @@ public class MyoXRInputBridge : MonoBehaviour
 //         }
 //     }
 // }
+
 
 
 
